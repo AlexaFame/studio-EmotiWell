@@ -4,23 +4,23 @@
 
 @layer base {
   :root {
-    --background: 218 100% 98%;
+    --background: 218 100% 98% / 0.7;
     --foreground: 220 5% 25%;
-    --card: 0 0% 100%;
+    --card: 0 0% 100% / 0.6;
     --card-foreground: 220 5% 25%;
-    --popover: 0 0% 100%;
+    --popover: 0 0% 100% / 0.6;
     --popover-foreground: 220 5% 25%;
     --primary: 220 70% 55%;
     --primary-foreground: 0 0% 98%;
     --secondary: 220 100% 95%;
     --secondary-foreground: 220 70% 55%;
-    --muted: 220 100% 95%;
+    --muted: 220 100% 95% / 0.6;
     --muted-foreground: 240 3.8% 46.1%;
     --accent: 220 80% 65%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 20% 90%;
+    --border: 220 20% 90% / 0.4;
     --input: 220 20% 90%;
     --ring: 220 80% 70%;
     --chart-1: 220 70% 55%;
@@ -30,7 +30,7 @@
     --chart-5: 240 70% 65%;
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 100%;
+    --sidebar-background: 0 0% 100% / 0.6;
     --sidebar-foreground: 220 5% 25%;
     --sidebar-primary: 220 70% 55%;
     --sidebar-primary-foreground: 0 0% 98%;
@@ -41,23 +41,23 @@
   }
 
   .dark {
-    --background: 220 15% 10%;
+    --background: 220 15% 10% / 0.7;
     --foreground: 220 15% 95%;
-    --card: 220 15% 14%;
+    --card: 220 15% 14% / 0.6;
     --card-foreground: 220 15% 95%;
-    --popover: 220 15% 14%;
+    --popover: 220 15% 14% / 0.6;
     --popover-foreground: 220 15% 95%;
     --primary: 220 70% 60%;
     --primary-foreground: 220 15% 10%;
     --secondary: 220 15% 20%;
     --secondary-foreground: 220 15% 95%;
-    --muted: 220 15% 20%;
+    --muted: 220 15% 20% / 0.6;
     --muted-foreground: 220 15% 65%;
     --accent: 220 80% 70%;
     --accent-foreground: 220 15% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 15% 20%;
+    --border: 220 15% 20% / 0.4;
     --input: 220 15% 20%;
     --ring: 220 80% 70%;
     --chart-1: 220 70% 50%;
@@ -66,7 +66,7 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    --sidebar-background: 220 15% 10%;
+    --sidebar-background: 220 15% 10% / 0.6;
     --sidebar-foreground: 220 15% 95%;
     --sidebar-primary: 220 70% 60%;
     --sidebar-primary-foreground: 220 15% 10%;
@@ -82,8 +82,17 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
-    background-image: radial-gradient(hsl(var(--muted)) 1px, transparent 1px);
-    background-size: 2rem 2rem;
+    @apply text-foreground;
+    background-image: url('https://images.unsplash.com/photo-1506260408121-e353d10b87c7?auto=format&fit=crop&w=2000&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .bg-background, .bg-card, .bg-popover, [data-sidebar="sidebar"], .bg-muted, .bg-secondary {
+    @supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+    }
   }
 }
