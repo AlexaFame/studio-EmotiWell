@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "A welcoming and professional office for therapy.",
+      "imageUrl": "https://images.unsplash.com/photo-1520605728164-b6a5c6814203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0aGVyYXB5JTIwb2ZmaWNlfGVufDB8fHx8MTc2ODgxMzEwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "therapy office"
+    },
+    {
+      "id": "2",
+      "description": "A person using a laptop for an online therapy session.",
+      "imageUrl": "https://images.unsplash.com/photo-1531547255897-f400dc1b7de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvbmxpbmUlMjB0aGVyYXB5fGVufDB8fHx8MTc2ODgxMzEwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online therapy"
+    },
+    {
+      "id": "3",
+      "description": "A diverse group of people in a directory.",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkaXZlcnNlJTIwcGVvcGxlfGVufDB8fHx8MTc2ODgxMzEwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diverse people"
+    },
+    {
+      "id": "4",
+      "description": "People sitting in a circle for a support group meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1604881991720-f91add269bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdXBwb3J0JTIwZ3JvdXB8ZW58MHx8fHwxNzY4ODExNTExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "support group"
+    },
+    {
+      "id": "5",
+      "description": "Two people comforting each other.",
+      "imageUrl": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbW90aW9uYWwlMjBzdXBwb3J0fGVufDB8fHx8MTc2ODgxMzEwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "emotional support"
+    },
+    {
+      "id": "6",
+      "description": "A person meditating peacefully outdoors.",
+      "imageUrl": "https://images.unsplash.com/photo-1618425977996-bebc5afe88f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZWFjZWZ1bCUyMG1lZGl0YXRpb258ZW58MHx8fHwxNzY4NzIwNjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "peaceful meditation"
+    },
+    {
+      "id": "7",
+      "description": "An open book with a brain illustration.",
+      "imageUrl": "https://images.unsplash.com/photo-1581333100576-b73befd79a9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtZW50YWwlMjBoZWFsdGh8ZW58MHx8fHwxNzY4ODEzMTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mental health"
+    }
+  ]
 }
