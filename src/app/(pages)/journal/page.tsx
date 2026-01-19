@@ -10,6 +10,7 @@ import { EMOTIONS } from '@/lib/constants';
 import { useToast } from '@/hooks/use-toast';
 import { Lightbulb, RotateCw } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
+import { cn } from '@/lib/utils';
 
 export default function JournalPage() {
   const [selectedEmotion, setSelectedEmotion] = useState<string>('');
